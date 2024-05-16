@@ -1,10 +1,10 @@
-
-import banner from "../../../public/imagens/banner.png"
+import './Banner.css'
 
 function Banner() {
-    console.log(banner);
     return (
-        <img src={banner} alt="O banner principal da página do "/>
+        <header className='banner'>
+            <img src="/imagens/banner.png" alt="O banner principal da página do " />
+        </header>
     )
 }
 
